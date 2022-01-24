@@ -12,11 +12,11 @@ namespace PersonalInformationWFApp
 {
     public partial class personalInformationForm : Form
     {
-        public static string firstName;
-        public static string lastName;
-        public static string fatherName;
-        public static string motherName;
-        public static string address;
+        public string firstName;
+        public string lastName;
+        public string fatherName;
+        public string motherName;
+        public string address;
         public personalInformationForm()
         {
             InitializeComponent();
@@ -78,11 +78,6 @@ namespace PersonalInformationWFApp
             lastNametextBox.Clear();
             fatherNametextBox.Clear();
             motherNametextBox.Clear();
-        }
-
-        private void personalInformationForm_Load(object sender, EventArgs e)
-        {
-            
         }
     }
 }

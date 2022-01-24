@@ -230,7 +230,6 @@
             this.Name = "personalInformationForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Personal Information";
-            this.Load += new System.EventHandler(this.personalInformationForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
